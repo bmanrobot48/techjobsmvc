@@ -57,6 +57,7 @@ namespace TechJobsMVC.Data
             return jobs;
         }
 
+        
         static public string GetFieldValue(Job job, string fieldName)
         {
             string theValue;
